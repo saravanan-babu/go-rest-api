@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"./api"
 	"github.com/gorilla/mux"
+	"github.com/saravanan-babu/go-rest-api/api"
 )
 
 func main() {

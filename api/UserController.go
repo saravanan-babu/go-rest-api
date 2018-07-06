@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"../apimodel"
-	"../common"
+	"github.com/saravanan-babu/go-rest-api/apimodel"
+	"github.com/saravanan-babu/go-rest-api/common"
 )
 
 type ApiHandler func(w http.ResponseWriter, r *http.Request)
